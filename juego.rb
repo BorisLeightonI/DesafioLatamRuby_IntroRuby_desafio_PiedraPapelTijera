@@ -6,7 +6,9 @@ when 0
     puts 'Computador juega piedra'
     if player=='piedra'
         puts 'Empataste'
-    elsif player=='papel' || player=='tijera'
+    elsif player=='papel'
+        puts 'Ganaste'
+    else
         puts 'Perdiste'
     end
 when 1
